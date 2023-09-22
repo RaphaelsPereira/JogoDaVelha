@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  h1  {
+    text-align: center; color: rgb(255, 255, 255); font-size: 40px;
+  }
+
+  h2{
+    text-align: center; color: rgb(255, 255, 255); text-shadow: 5px black;
+  }
+  
+  
+  .game {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  
+  .game button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: #ffffff84; box-shadow: 0 4px 6px rgb(0, 251, 255);
+  }
